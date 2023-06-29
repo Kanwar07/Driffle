@@ -1,0 +1,161 @@
+.parent {
+  background-position: "center";
+  background-size: "cover";
+  background-repeat: "no-repeat";
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
+  background-image: radial-gradient(
+    circle,
+    #001754,
+    #001647,
+    #00143a,
+    #01112c,
+    #020c1f,
+    #040819,
+    #040511,
+    #020207,
+    #030105,
+    #030103,
+    #020001,
+    #000000
+  );
+}
+
+.rec {
+  position: relative;
+  border: 0px dashed;
+  width: 44rem;
+  height: 44rem;
+  margin: auto;
+}
+
+.shape {
+  position: absolute;
+  border-radius: 968px;
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  width: 44rem;
+  height: 44rem;
+  margin: auto;
+}
+
+.rec1 {
+  position: absolute;
+  border: 0px dashed;
+  width: 30rem;
+  height: 30rem;
+  margin-top: 15.5%;
+  margin-left: 15.5%;
+}
+
+.shape1 {
+  position: absolute;
+  border-radius: 868px;
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  width: 30rem;
+  height: 30rem;
+  margin: auto;
+}
+
+.rec2 {
+  position: absolute;
+  border: 0px dashed;
+  width: 18rem;
+  height: 18rem;
+  margin-top: 19.5%;
+  margin-left: 19.5%;
+}
+
+.shape2 {
+  position: absolute;
+  border-radius: 686px;
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  width: 18rem;
+  height: 18rem;
+  margin: auto;
+}
+
+.content {
+  position: absolute;
+  margin-top: 12%;
+  margin-left: 30%;
+  color: #fff;
+  text-align: center;
+  font-size: 3rem;
+  font-family: Roobert;
+  font-weight: 700;
+  line-height: 4.25rem;
+  width: 40%;
+}
+
+.textgreen {
+  color: #5df5b5;
+}
+
+.para {
+  color: #9f9f9f;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Roobert;
+  line-height: 1.375rem;
+  margin-top: 18px;
+  text-align: justify;
+}
+
+.button1 {
+  border-radius: 24px;
+  background: rgba(68, 68, 68, 0.3);
+  height: 50px;
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-family: Roobert;
+  font-weight: 700;
+  line-height: 1.25rem;
+  letter-spacing: 0.02rem;
+  width: 11.125rem;
+}
+
+.batman {
+  margin-top: -26rem;
+  margin-left: 9rem;
+  height: 16px;
+  width: 16px;
+}
+
+.xbox {
+  margin-top: 24rem;
+  margin-right: 15rem;
+}
+
+.fifa {
+  margin-top: -25rem;
+  margin-left: 39rem;
+}
+
+.gta {
+  margin-top: -10rem;
+  margin-left: 12rem;
+}
+
+.minecraft {
+  margin-left: -38rem;
+  margin-top: -2rem;
+}
+
+.mortal {
+  margin-top: 25rem;
+  margin-right: -26rem;
+}
+
+@media (max-width: 1024px) {
+  .rec {
+    display: none;
+  }
+  .content {
+    font-size: 2.5rem;
+  }
+  .icons {
+    display: none;
+  }
+}
